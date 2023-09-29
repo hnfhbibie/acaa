@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
@@ -15,7 +17,7 @@ export default {
         bghero: "#fec7d7",
       },
       backgroundImage: {
-        quest: "url('./src/assets/images/quest-image.png')",
+        quest: "url('/src/assets/images/quest-image.png')",
       },
       colors: {
         primary: "#f9f8fc",

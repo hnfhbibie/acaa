@@ -13,6 +13,8 @@ import imgCarousel3 from "./carousel-image3.png";
 import imgCarousel4 from "./carousel-image4.png";
 import imgCarousel5 from "./carousel-image5.png";
 
+import questImg from "./quest-image.png";
+
 export {
   aboutImage,
   imgCard1,
@@ -26,4 +28,5 @@ export {
   imgCarousel3,
   imgCarousel4,
   imgCarousel5,
+  questImg,
 };
