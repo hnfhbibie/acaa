@@ -1,5 +1,5 @@
 import React from "react";
-import MemoriesCard from "../components/cards/MemoriesCard";
+import { MemoriesCard } from "../components/cards";
 import { memoriesCardImage } from "../constant";
 
 const Memories = () => {
