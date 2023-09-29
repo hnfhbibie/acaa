@@ -1,4 +1,4 @@
-import CarouselCard from "../components/cards/CarouselCard";
+import { CarouselCard } from "../components/cards";
 
 const Hero = () => {
   return (
