@@ -1,5 +1,5 @@
 import { Navbar, Footer } from "./components";
-import { Hero, About, Memories, Playlist, Quest } from "./sections";
+import { Hero, About, Memories, Playlist, Quest } from "./section";
 
 const App = () => {
   return (
