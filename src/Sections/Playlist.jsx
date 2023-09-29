@@ -1,4 +1,4 @@
-import SpotifyCard from "../components/Cards/SpotifyCard";
+import SpotifyCard from "../components/cards/SpotifyCard";
 
 const Playlist = () => {
   return (
