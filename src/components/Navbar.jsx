@@ -38,25 +38,25 @@ const Navbar = () => {
             />
           )}
         </div>
+        <div
+          className={`absolute top-20 w-full h-screen z-10 p-4 bg-white md:hidden flex items-center justify-center smooth-transition ${
+            menuOpen ? "right-0" : "-right-full"
+          }`}
+        >
+          <ul className="flex flex-col justify-center items-center text-2xl gap-5">
+            {navbarLinks.map((navitem) => (
+              <li key={navitem.label} onClick={() => setMenuOpen(false)}>
+                <a
+                  className="font-semibold font-nunito text-blue-text cursor-pointer hover:text-blue-hover"
+                  href={navitem.href}
+                >
+                  {navitem.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </nav>
-      <div
-        className={`absolute w-full h-screen z-10 p-4 bg-white md:hidden flex items-center justify-center smooth-transition ${
-          menuOpen ? "right-0" : "-right-full"
-        }`}
-      >
-        <ul className="flex flex-col justify-center items-center text-2xl gap-5">
-          {navbarLinks.map((navitem) => (
-            <li key={navitem.label} onClick={() => setMenuOpen(false)}>
-              <a
-                className="font-semibold font-nunito text-blue-text cursor-pointer hover:text-blue-hover"
-                href={navitem.href}
-              >
-                {navitem.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
     </header>
   );
 };
