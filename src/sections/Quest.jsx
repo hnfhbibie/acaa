@@ -3,7 +3,7 @@ import React from "react";
 const Quest = () => {
   return (
     <div className="w-full bg-primary">
-      <div className="max-container bg-quest bg-cover bg-center min-h-screen flex flex-col gap-10">
+      <div className="max-container bg-quest bg-cover bg-center min-h-screen flex flex-col gap-10 xl:min-h-[800px]">
         <div className="py-20 w-full flex justify-center items-center flex-col gap-20">
           <div className="border w-60 h-24 md:w-96 md:h-32 bg-slate-200 bg-opacity-40 rounded-lg flex justify-center items-center text-center">
             <p className="font-nunito md:text-sm text-[9px] mx-5 italic ">

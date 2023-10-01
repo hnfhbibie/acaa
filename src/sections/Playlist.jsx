@@ -3,7 +3,7 @@ import { SpotifyCard } from "../components/card";
 const Playlist = () => {
   return (
     <div className="w-full bg-bghero">
-      <div className="max-container min-h-screen flex flex-col gap-10 py-20">
+      <div className="max-container min-h-screen flex flex-col gap-10 py-20 xl:min-h-[800px]">
         <div className="flex flex-col justify-center items-center gap-3 text-2xl lg:text-4xl">
           <h1 className="font-bold">PLAYLIST</h1>
           <div className="w-24 h-2 bg-primary rounded-lg lg:w-56" />

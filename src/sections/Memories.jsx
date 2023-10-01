@@ -5,7 +5,7 @@ import { memoriesCardImage } from "../constant";
 const Memories = () => {
   return (
     <div
-      className="max-container min-h-screen flex flex-col gap-10"
+      className="max-container min-h-screen flex flex-col gap-10 xl:min-h-[800px]"
       id="memories"
     >
       <div className="flex flex-col justify-center items-center gap-3 text-2xl lg:text-4xl">
