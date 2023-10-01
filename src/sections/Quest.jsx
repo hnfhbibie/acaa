@@ -14,7 +14,7 @@ const Quest = () => {
             </p>
           </div>
           <h1 className="text-white font-poppin font-bold md:text-[72px] text-center text-[48px] hover:text-black">
-            WOULD YOU LIKE TO BE MY GIRLFRIEND
+            SHE IS MY GIRLFRIEND
           </h1>
           <div className="border w-60 h-24 md:w-96 md:h-32 bg-slate-200 bg-opacity-40 rounded-lg flex justify-center items-center text-center">
             <p className="font-nunito md:text-sm text-[9px] mx-5 italic ">
