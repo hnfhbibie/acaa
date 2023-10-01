@@ -39,11 +39,11 @@ const Navbar = () => {
           )}
         </div>
         <div
-          className={`absolute top-20 w-full h-screen z-10 p-4 bg-white md:hidden flex items-center justify-center smooth-transition ${
-            menuOpen ? "right-0" : "-right-full"
+          className={`absolute top-20 right-0 w-2/3 h-screen z-10 p-4 bg-white md:hidden flex items-center justify-center smooth-transition ${
+            menuOpen ? "-right-100" : "hidden"
           }`}
         >
-          <ul className="flex flex-col justify-center items-center text-2xl gap-5">
+          <ul className="flex flex-col justify-center items-end text-2xl gap-5">
             {navbarLinks.map((navitem) => (
               <li key={navitem.label} onClick={() => setMenuOpen(false)}>
                 <a
