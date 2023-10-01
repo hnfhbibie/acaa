@@ -2,7 +2,7 @@ import { CarouselCard } from "../components/card";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-bghero min-h-screen" id="home">
+    <section className="w-full bg-bghero min-h-screen " id="home">
       <div className="max-container py-10 flex justify-center items-center md:px-10 sm:px-5">
         <CarouselCard />
       </div>
